@@ -8,9 +8,9 @@ import {
   TouchableOpacity,
   ActivityIndicator,
 } from 'react-native';
-import {BleDevice} from './BleManagerProvider';
+import {BleDevice} from '../../contexts/BleManagerProvider';
 import {styles} from './styles';
-import {colors} from '../../assets/colors';
+import {colors} from '../../theme/colors';
 import {connectedDeviceData} from './BleConnector';
 
 interface DeviceModalProps {

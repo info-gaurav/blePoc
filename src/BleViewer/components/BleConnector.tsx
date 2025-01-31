@@ -1,10 +1,10 @@
 import React, {useState, useContext, useEffect} from 'react';
 import {View, Text, Button, Alert, Image} from 'react-native';
 import BleManager from 'react-native-ble-manager';
-import {BleContext} from './BleManagerProvider';
-import DeviceModal from './DeviceModal';
+import {BleContext} from '../../contexts/BleManagerProvider';
+import DeviceModal from './BleDeviceInfo';
 import {styles} from './styles';
-import {colors} from '../../assets/colors';
+import {colors} from '../../theme/colors';
 import images from '../../assets/images';
 
 export interface connectedDeviceData {
