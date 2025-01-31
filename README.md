@@ -1,7 +1,31 @@
-# Project flow 
+# Project flow Document
 > Document: Project flow document and recording is in the root of the project under the "blePocDoc" directory.
 
-# Getting Started
+
+## Working steps
+1. First screen when we launch the application. On click of search button it will start search nearby available BLE devices.
+![IMG_0040](https://github.com/user-attachments/assets/33e8c548-7872-4eb3-b13e-838a9e8cb904)
+
+2. After click on the scan button one animation will be shown on the screen and in the background, it will be keep on fetching the available BLE devices list.
+![IMG_0041](https://github.com/user-attachments/assets/d25c0d15-cf04-4146-956e-724c32143e77)
+
+3. . Once the scan will be completed it will display the list in a native modal so that user can select the device accordingly. I have number of BLE devices around me. One with the name of “iPhone”, which I have simulate my phone as Ble device to verify the connection.
+- used NRF Connect App to convert iPhone as BLE device
+![IMG_0042](https://github.com/user-attachments/assets/ea704030-81c8-46f3-9d05-54a7472b2bff)
+
+4. Once we select any device it will display the selected device id and name on the first screen and close the device list modal.
+![IMG_0044](https://github.com/user-attachments/assets/e6fbd363-688c-44c7-bafa-ac74514ae8c2)
+
+5. Last step we can read all the data on which device we are connected with, Including its characteristics, serviceUUIDs, services etc.
+<img width="1157" alt="Screenshot 2025-01-30 at 5 12 20 PM" src="https://github.com/user-attachments/assets/8c50538c-bd66-4605-b80e-74c870cd3008" />
+
+
+## project flow video
+https://github.com/user-attachments/assets/f10fd54a-791b-4d3e-ac08-8a9f054ea549
+
+
+
+# Project setup Guide
 
 > **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
 
